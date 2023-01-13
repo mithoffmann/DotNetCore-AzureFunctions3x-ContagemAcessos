@@ -3,6 +3,6 @@
   "Values": {
     "AzureWebJobsStorage": "",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet",
-    "MensagemVariavel": "TEste com local.settings.json"
+    "MensagemVariavel": "Teste com local.settings.json"
   }
 }
