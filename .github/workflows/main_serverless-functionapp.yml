@@ -32,7 +32,7 @@ jobs:
           pushd './${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
           dotnet build --configuration Release --output ./output          
           popd
-        workDirectory: '${{ env.APPDIRECTORY }}'
+        working-directory: '${{ env.APPDIRECTORY }}'
       
       ## Deploy Function on Azure
       - name: 'Run Azure Functions Action'
