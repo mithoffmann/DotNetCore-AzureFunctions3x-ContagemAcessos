@@ -1,0 +1,1 @@
+az ad sp create-for-rbac --name 'sp-serverless' --role Contributor --scopes '/subscriptions/aa2b6366-781d-451b-bc50-598e977653c9/resourceGroups/rg-serverless' --sdk-auth
